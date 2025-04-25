@@ -1,0 +1,11 @@
+tensorflow
+fastapi
+uvicorn
+python-multipart
+pillow
+matplotlib
+numpy
+python-jose[cryptography] 
+passlib[bcrypt] 
+sqlalchemy
+pydantic[email]
