@@ -1,0 +1,59 @@
+/* Full page center alignment */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .auth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
+  }
+  
+  .auth-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form input,
+  .auth-form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .link-text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .form-toggle {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .error-msg {
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .success-msg {
+    color: green;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  

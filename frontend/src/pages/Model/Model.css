@@ -1,0 +1,102 @@
+/* Improved CSS for Malaria Detection Model */
+
+.model_title {
+  padding: 100px;
+}
+
+/* Container to Center Content */
+.model_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+/* Image Upload Box */
+.upload-card {
+  
+  color: #000F38;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 500px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.upload-box {
+  border: 3px dashed #007bff;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background: #f9f9f9;
+  transition: background 0.3s ease;
+  font-size: 20px;
+  width: 80%;
+}
+
+
+.upload-box:hover {
+  background-color: #e6f0ff;
+}
+.upload-btn{
+font-size: 15px;
+padding-top: 30px;
+padding-bottom: 30px;
+max-width: 200px;
+text-align: center;
+}
+
+.upload-box input {
+  display: none;
+}
+
+.preview-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* Button Styling */
+.model_button {
+  background: #007bff;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  padding: 14px;
+  border-radius: 12px;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.model_button:hover {
+  background: #0154ac;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .model_container {
+    margin-top: 25%;
+    padding-top: 30%;
+  }
+  .upload-card {
+    padding: 20px;
+    width: 90%;
+  }
+  .model_button {
+    width: 50%;
+  }
+  
+}

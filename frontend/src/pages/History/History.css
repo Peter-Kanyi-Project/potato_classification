@@ -1,0 +1,41 @@
+.history-page {
+    padding: 40px 20px 20px 260px;
+  }
+  
+  .history-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 16px;
+    /* max-width: 1200px; */
+  }
+  
+  .history-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 30px ;
+  }
+  
+  .history-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .history-info {
+    margin-top: 8px;
+  }
+  
+/*======== media querry =========*/
+
+@media (max-width: 700px){
+  .history-page{
+      padding: 20px;
+
+  }
+}
